@@ -13,6 +13,7 @@ loop1:
 	sb $zero, array($t1)
 	addi $t1, $t1, 1
 	bge $t1, $t2, loop1end
+	j loop1
 
 loop1end:
 
